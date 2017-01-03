@@ -4,6 +4,6 @@ jdk:
 
 deploy:
   provider: heroku
-  api_key:f69bcce1-7e30-4309-90d5-9e1b5874c8c5
-  app:javatranslator
+  api_key: f69bcce1-7e30-4309-90d5-9e1b5874c8c5
+  app: javatranslator
 
