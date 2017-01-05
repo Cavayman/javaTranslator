@@ -1,5 +1,21 @@
 body {
+    margin: 0;
+    pading: 0;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
     width: 100%;
     height: 100%;
     background-color: #965AFF;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
