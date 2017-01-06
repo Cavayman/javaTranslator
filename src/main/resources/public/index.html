@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Yourapp</title>
+    <title>Java Translate</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -11,22 +11,53 @@
 </head>
 <body>
 
-<nav class="navbar">
-    <div class="container">
+<nav class="navigation">
+    <div class="row">
+        <div class="logo col-xs-3"><i class="fa fa-coffee" aria-hidden="true"></i> Java Translate
+        </div>
+        <ul class="buttons col-xs-9">
+            <li class="col-xs-offset-4  col-xs-2"><a href="home">Home</a></li>
+            <li class=" col-xs-2"><a href="learn">Learn</a></li>
+            <li class=" col-xs-2 login-label"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</li>
+            <li class=" col-xs-2"><i class="fa fa-flag" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <hr>
+    <div id="loginId" class="login form form-group container">
+        <h4>Login, to enter your account</h4>
+        <hr>
         <div class="row">
-            <div class="logo col-xs-3"><i class="fa fa-coffee" aria-hidden="true"></i> Java Translate
+            <div class="col-xs-12">
+                <label>Login</label>
+                <input class="form-control" type="text" id="login" name="login" placeholder="Enter login...">
             </div>
-
-            <ul class="buttons col-xs-9">
-                <li class="col-xs-offset-6  col-xs-2">Home</li>
-                <li class=" col-xs-2">Learn</li>
-                <li class=" col-xs-2"><i class="fa fa-hand-spock-o" aria-hidden="true"></i></li>
-            </ul>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <label>Password</label>
+                <input class="form-control " type="password" id="password" name="password"
+                       placeholder="Enter password...">
+            </div>
+        </div>
+        <hr>
+        <div class="row faq-buttons">
+            <div class="col-xs-6 checkbox">
+                <label><input type="checkbox">
+                    Remember me</label>
+            </div>
+            <div class="col-xs-6 forg-me">
+                <label>Forgot password ?</label>
+            </div>
         </div>
     </div>
 </nav>
 
 
 <script src="https://use.fontawesome.com/3577343ef5.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.1.1.slim.js"
+        integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+        crossorigin="anonymous"></script>
+<script src="js/nav.js"></script>
 </body>
 </html>
