@@ -62,10 +62,6 @@
 .buttons > li:hover {
     color: #ded9d9;
     cursor: pointer;
-}/*нажимання на кнопку*/
-.buttons > li:hover  a{
-    color: #ded9d9;
-    cursor: pointer;
 }
 
 /*Login*/

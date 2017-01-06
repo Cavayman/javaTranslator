@@ -21,6 +21,7 @@ a:hover{
     text-decoration: none; /* no underline */
 
 }
+
 ul{
     margin: 0;
     padding: 0;
@@ -32,8 +33,70 @@ ul{
 }
 
 
+/*-----------------------------------------
+                    Footer
+                    WARNING!
+                    BIDLO CODE
+-----------------------------------------*/
+.site-footer hr{
+    margin: 1% 1% 0 1%;
+}
+footer{
+    float: left;
+    width: 100%;
+    color: snow;
+}
 
-
-
-
-
+ul{
+    list-style-type: none;
+}
+footer a{
+    color: snow;
+}
+footer a:hover, footer a:active, footer a:focus{
+    text-decoration: none;
+    color: #ded9d9;
+}
+footer .footer-title{
+    letter-spacing: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: snow;
+    margin-bottom: 2s0px;
+ }
+footer .footer-links{
+    padding-left: 0;
+    margin-left: 0;
+}
+footer .footer-links li{
+    list-style: none;
+    padding: 0;
+}
+footer .footer-social li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+footer .footer-social li a{
+    float: left;
+    font-size: 20px;
+    padding: 4px 7px;
+}
+.footer-copyright{
+    color: #ccc;
+    padding: 3em 0;
+    margin-top: 5em;
+    border-top: 1px solid snow;
+}
+#sub-form{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.form-control:focus{
+    border-color: linear-gradient(135deg, #8000ff 0%, #60acff 100%);
+    outline: 0;
+    box-shadow: none;
+}
