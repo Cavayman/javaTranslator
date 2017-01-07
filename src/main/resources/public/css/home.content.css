@@ -2,19 +2,15 @@
     padding: 4% 3% 2% 3%;
     color: snow;
 }
-
-
 hr {
     margin: 5px;
 }
-
 .article:hover {
     background-color: rgba(119, 114, 114, 0.2);
 }
 .article main  {
 padding: 2% 3% 2% 3%;
 }
-
 .article .title {
     font-weight: bold;
     font-size: 2em;

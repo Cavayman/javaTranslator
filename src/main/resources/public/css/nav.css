@@ -5,23 +5,19 @@
     color: snow;
     cursor: default;
 }
-
 .navigation hr {
     margin: 1% 1% 0 1%;
 }
-
 /*логотип на менюшкці*/
 .logo {
     font-size: 2em;
     float: left;
 }
-
 .logo > .fa {
     animation-name: logoChangeColor;
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-
 @keyframes logoChangeColor {
     0% {
         color: #00ffff;
@@ -37,16 +33,13 @@
     }
 
 }
-
 .navigation ul {
     height: 40px;
 }
-
 /*кнопки на менюшці*/
 .buttons {
     float: right;
 }
-
 .buttons li {
     padding: 0.3% 0 0 0;
     height: 100%;
@@ -54,18 +47,13 @@
     list-style-type: none;
     transition: 0.2s;
     border-left: 1px solid snow;
-
 }
-
-
 /*нажимання на кнопку*/
 .buttons > li:hover {
     color: #ded9d9;
     cursor: pointer;
 }
-
 /*Login*/
-
 .login{
     z-index: 1;
     visibility: hidden;
@@ -99,7 +87,6 @@
     cursor: pointer;
     text-decoration: underline;
 }
-
 .login .forg-me{
     border-left:1px solid snow;
     position: relative;
