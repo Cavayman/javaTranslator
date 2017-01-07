@@ -1,27 +1,66 @@
 .home-content {
-    padding: 4% 3% 2% 3%;
+    padding: 4% 8% 2% 8%;
     color: snow;
     height: 95vh;
+
 }
+
 hr {
     margin: 5px;
 }
+main hr{
+    margin: -5px -4px 5px -4px;
+}
+.article {
+    height: 80vh;
+}
+
 .article:hover {
     background-color: rgba(119, 114, 114, 0.2);
 }
-.article main  {
-padding: 2% 3% 2% 3%;
+
+.article main {
+    padding: 2% 3% 2% 3%;
 }
+
 .article .title {
     font-weight: bold;
     font-size: 2em;
 }
-.article header:hover{
+
+
+
+.article header:hover {
     cursor: pointer;
 }
-.article header label:hover{
+
+.article header label:hover {
     cursor: pointer;
 }
-.article main:hover{
+
+.article main:hover {
     cursor: default;
+
 }
+.article main{
+    height:79%;
+}
+.main-img-cont{
+    width: 30%;
+    height:35%;
+}
+
+.main-text{
+    height:220px;
+    overflow: hidden;
+}
+.main-bottom-img img{
+    width: 15%;
+    transition:5s easy;
+}
+.main-bottom-img img:hover{
+  position: relative;
+    top:5px;
+    cursor: pointer;
+}
+
