@@ -10,7 +10,9 @@ body {
     background: linear-gradient(135deg, #8000ff 0%, #60acff 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
+    overflow: auto;
+
+
 }
 a{
     color: snow;
