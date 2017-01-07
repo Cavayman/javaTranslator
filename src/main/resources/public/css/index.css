@@ -6,11 +6,13 @@ body {
     text-decoration: none;
     text-align: center;
     width: 100%;
-    height: auto;
     background: linear-gradient(135deg, #8000ff 0%, #60acff 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-x: hidden;
+    padding:2% 0 0 0;
+
+    height:100vh;
 }
 a{
     color: snow;
