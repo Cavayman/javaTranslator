@@ -11,8 +11,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: auto;
-
-
 }
 a{
     color: snow;
@@ -33,8 +31,6 @@ ul{
     border-radius: 5px;
     padding: 1%;
 }
-
-
 /*-----------------------------------------
                     Footer
                     WARNING!
@@ -49,7 +45,6 @@ footer{
     color: snow;
 
 }
-
 ul{
     list-style-type: none;
 }
