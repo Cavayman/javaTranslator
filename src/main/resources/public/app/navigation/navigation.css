@@ -41,6 +41,10 @@
 .navigation ul {
     height: 33px;
 }
+.navigation ul:nth-child(3){
+    background-color: black;
+    font-size: 0.8em;
+}
 /*кнопки на менюшці*/
 .buttons {
     float: right;
@@ -64,10 +68,13 @@
     color: #ded9d9;
     cursor: pointer;
 }
+.login-label{
+    padding:0 1px 0 1px;
+}
+
 /*Login*/
 .login{
     z-index: 1;
-    visibility: hidden;
     width: 21.9%;
     height: auto;
     color:snow;

@@ -13,6 +13,11 @@ public class TestController {
     public String getUser(){
    return "index.html";
 }
+@RequestMapping(path = "/",method = RequestMethod.GET)
+    public String getUser(){
+   return "index.html";
+}
+
     @RequestMapping(path = "/learn",method = RequestMethod.GET)
     public String getAll(){
         return "index.html";
