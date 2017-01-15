@@ -14,7 +14,7 @@ public class TestController {
    return "index.html";
 }
 @RequestMapping(path = "/",method = RequestMethod.GET)
-    public String getUser(){
+    public String getUserHome(){
    return "index.html";
 }
 
