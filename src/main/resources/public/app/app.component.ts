@@ -23,8 +23,10 @@ const HEROES: Hero[] = [
   selector: 'my-app',
   template: `
   <app-navigation>navigation</app-navigation>
-  <app-content></app-content>
-  <app-footer>footer</app-footer>`
+   <section class="home-content row">
+    <router-outlet></router-outlet>
+    </section>
+   <app-footer>footer</app-footer>`
   }
  )
 export class AppComponent {

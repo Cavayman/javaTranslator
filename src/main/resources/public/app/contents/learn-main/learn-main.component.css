@@ -1,18 +1,14 @@
-.home-content {
-    padding: 4% 8% 2% 8%;
-    color: snow;
-    height: 95vh;
-
-}
 
 hr {
-    margin: 5px;
+    margin: 1.5% 0 1.5% 0;
 }
 main hr{
     margin: -5px -4px 5px -4px;
 }
+
+
 .article {
-    height: 80vh;
+    height: 40vh;
 }
 
 .article:hover {
@@ -20,7 +16,7 @@ main hr{
 }
 
 .article main {
-    padding: 2% 3% 2% 3%;
+    margin: 2% 3% 2% 3%;
 }
 
 .article .title {
@@ -42,18 +38,13 @@ main hr{
     cursor: default;
 
 }
-.article main{
-    height:78%;
-}
-.main-img-cont{
-    width: 30%;
-    height:35%;
+
+.main-img{
+    font-size: 0.9em;
+    margin:2% 0 2% 0;
 }
 
-.main-text{
-    height:59%;
-    overflow: hidden;
-}
+
 .main-bottom-img img{
     width: 15%;
     transition:5s easy;
