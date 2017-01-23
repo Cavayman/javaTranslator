@@ -1,15 +1,19 @@
 <header class="navigation">
-  <div class="row">
-    <div class="logo col-xs-3"><i class="fa fa-coffee" aria-hidden="true"></i> Java Translate
-    </div>
-    <ul class="buttons col-xs-9">
-      <li class="col-xs-offset-4  col-xs-2"><a routerLink="/home" >Home</a></li>
-      <li class=" col-xs-2"><a routerLink="/learn" >Learn</a></li>
-      <li class=" col-xs-2 login-label" (click)="onClick()" ><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</li>
-      <li class=" col-xs-2"><i class="fa fa-flag" aria-hidden="true"></i></li>
+  <div class="row center">
+    <div class="col-xs-2">
+     <img src="shared/img/logo_white.png" alt="Jlearn">
+     </div>
+    <div class="col-xs-4"></div> 
+    <ul class="buttons col-xs-6 text-center">
+      <li class=" col-xs-2 "><a routerLink="/home" >HOME</a></li>
+      <li class=" col-xs-2"><a routerLink="/learn" >LEARN</a></li>
+      <li class=" col-xs-3 " (click)="onClick()" >SIGN IN</li>
+      <li class=" col-xs-2">ENG</li>
+      <li class=" col-xs-3">SEARCH</li>
+   
     </ul>
   </div>
-  <hr>
+  
   <div id="loginId" *ngIf="show===true" class="login form form-group container">
     <h4>Login, to enter your account</h4>
     <hr>

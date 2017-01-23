@@ -10,13 +10,14 @@ import { LearnMainComponent } from './contents/learn-main/learn-main.component';
 
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpModule }    from '@angular/http';
 
 @NgModule({
   imports: [BrowserModule,
-    FormsModule, AppRoutingModule],
+    FormsModule, AppRoutingModule,HttpModule],
   declarations: [AppComponent,
     NavigationComponent, FooterComponent,
-    ContentComponent, LearnMainComponent
+    ContentComponent, LearnMainComponent,
   ],
   bootstrap: [AppComponent]
 })

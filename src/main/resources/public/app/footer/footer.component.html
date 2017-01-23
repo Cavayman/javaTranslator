@@ -34,9 +34,9 @@
         <hr>
         <form id="sub-form">
           <div class="input-group">
-            <input type="email" class="form-control" placeholder="Email Address" required id="sub-email">
+            <input type="email" class="form-control" [(ngModel)]="str" [ngModelOptions]="{standalone: true}" placeholder="Email Address" required id="sub-email" >
             <span class="input-group-btn">
-                            <button type="submit" class="btn btn-default">Subscribe <i class="fa fa-envelope"></i> </button>
+                            <button class="btn btn-default" (click)='sendEmail()'>Subscribe <i class="fa fa-envelope"></i> </button>
                             </span> </div>
         </form>
       </div>

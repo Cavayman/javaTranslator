@@ -1,112 +1,43 @@
 .navigation {
-    padding: 1% 0% 0 0%;
     width: 100%;
-   position: fixed;
+    position: fixed;
     top:0;
-    background: linear-gradient(135deg, #8000ff 0%, #60acff 100%);
+    background-color:#23272C;
     color: snow;
     cursor: default;
     z-index: 2;
+    max-height:80px;
+    padding:1% 0 1% 0 ;
 }
-.navigation hr {
-   margin: 0;
-    padding: 0;
-}
-/*логотип на менюшкці*/
-.logo {
-    font-size: 1.7em;
-    float: left;
-    top:-6px;
-}
-.logo > .fa {
-    animation-name: logoChangeColor;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-@keyframes logoChangeColor {
-    0% {
-        color: #00ffff;
-    }
-    33% {
-        color: #FF69B4;
-    }
-    66% {
-        color: #8000ff;
-    }
-    100% {
-        color: #00ffff;
-    }
+.navigation  ul{
+    list-style:none; 
+    font-size: 0.9em;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+}   
 
-}
-.navigation ul {
-    height: 33px;
-}
-.navigation ul:nth-child(3){
-    background-color: black;
-    font-size: 0.8em;
-}
-/*кнопки на менюшці*/
-.buttons {
-    float: right;
-}
-.buttons li {
-    letter-spacing: 4px;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    display: inline-block;
-    color: snow;
-    list-style-type: none;
-    transition: 0.2s;
-    border-left: 1px solid snow;
-}
-/*нажимання на кнопку*/
-.buttons > li:hover {
-    color: #ded9d9;
-    cursor: pointer;
-}
-.buttons > li:hover a {
-    color: #ded9d9;
-    cursor: pointer;
-}
-.login-label{
-    padding:0 1px 0 1px;
+img{
+    width:100px; 
+    height: 50px;
 }
 
-/*Login*/
-.login{
-    z-index: 1;
-    width: 21.9%;
-    height: auto;
-    color:snow;
-    position:fixed;
-    left:75.1%;
-    margin-top: 0.9%;
-    background-color:#7054FF ;
+ a {
+     text-decoration: none ;
+  }
+a:hover
+  {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+   }
+   a {color:white;}      /* unvisited link */
+   a:hover {color:white;}  /* mouse over link */
+a:active {color:white;}  /* selected link */
+
+ul li:hover{
+    color:#7D848A;
 }
-.login .faq-buttons{
-    font-size:0.8em;
-}
-.login .checkbox{
-    margin:0;
-}
-.login > label{
-    float:left;
-    padding-top: 1%;
-}
-.login > hr {
-  margin-top:0;
-}
-.login > .faq-buttons{
-    float:none;
-    padding-top: 1%;
-}
-.login .faq-buttons label:hover{
-    color:#ded9d9;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.login .forg-me{
-    border-left:1px solid snow;
-    position: relative;
-    display: block;
+ul li:hover{
+    color:#7D848A;
 }
